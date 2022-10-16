@@ -2,7 +2,7 @@
 let d = new Date();
 let newDate = d.getMonth()+1+'.'+ d.getDate()+'.'+ d.getFullYear();
 const generate = document.querySelector('#generate');
-const apiKey = 'eade5050c08c5bf7961c7052d7e37fb1';
+const apiKey = 'a0dc0b1ae9026d17535390446aa8eeea';
 
 generate.addEventListener('click',()=>{
     const zipCode = document.querySelector('#zip').value;
